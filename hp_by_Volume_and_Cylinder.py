@@ -14,4 +14,4 @@ c = float(input('Insert number of Cylinders: '))
 
 predicthp = regr.predict([[v, c]])
 
-print(predicthp)
+print(predicthp[0])
