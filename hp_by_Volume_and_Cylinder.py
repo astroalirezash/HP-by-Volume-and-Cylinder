@@ -7,7 +7,7 @@ X = df[['Volume', 'Cylinder']]
 y = df['hp']
 
 regr = linear_model.LinearRegression()
-regr.fit(X, y)
+regr.fit(X.values, y)
 
 v = float(input('Insert Volume of the engine: '))
 c = float(input('Insert number of Cylinders: '))
